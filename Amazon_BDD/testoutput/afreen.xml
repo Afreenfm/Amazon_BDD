@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="18.449">
+<testcase classname="Test search functionalities" name="enter alphanumeric value" time="3.082">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given i should open the browser.............................................skipped
+And navigate to home page of amazon.com and signup..........................skipped
+When enter searchtext as "a"................................................skipped
+Then i should c searchedtext as "a".........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.Defination.setUp(Defination.java:44)
+]]></failure>
+</testcase>
+<testcase classname="Test search functionalities" name="enter product and click on search icon" time="3.012">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given i should open the browser.............................................skipped
+And navigate to home page of amazon.com and signup..........................skipped
+When enter product in search text...........................................skipped
+And click on search icon....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.Defination.setUp(Defination.java:44)
+]]></failure>
+</testcase>
+<testcase classname="Search history feature" name="Verify that does the search history page keeps a history of your previously searched products on Amazon" time="3.014">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given i should open the browser.............................................skipped
+And navigate to home page of amazon.com and signup..........................skipped
+When click on Accounts&lists and then on Account............................skipped
+And click Browsing history..................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.Defination.setUp(Defination.java:44)
+]]></failure>
+</testcase>
+<testcase classname="Search history feature" name="Verify that the search history page offer you the option to hide the history of previously searched products" time="3.023">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given i should open the browser.............................................skipped
+And navigate to home page of amazon.com and signup..........................skipped
+When Go to user Account.....................................................skipped
+And click Browsing history..................................................skipped
+And Click on Turn recently viewed items(Browsing History)to OFF.............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.Defination.setUp(Defination.java:44)
+]]></failure>
+</testcase>
+<testcase classname="Search sidebar feature" name="Verify that does the search page categorize more options to filter product search" time="3.011">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given i should open the browser.............................................skipped
+And navigate to home page of amazon.com and signup..........................skipped
+When I Enter search text in search field....................................skipped
+And click on search icon....................................................skipped
+Then Click on All Categories................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.Defination.setUp(Defination.java:44)
+]]></failure>
+</testcase>
+<testcase classname="Search sidebar feature" name="Verify that does the search page offer price sort from low to high" time="3.003">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given i should open the browser.............................................skipped
+And navigate to home page of amazon.com and signup..........................skipped
+When I Enter search text in search field and click on search icon...........skipped
+Then click on Sort by and select low to high................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.Defination.setUp(Defination.java:44)
+]]></failure>
+</testcase>
+</testsuite>
